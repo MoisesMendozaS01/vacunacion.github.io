@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo de header */
+.header .container {
+    height: 70px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    opacity: 80%;
+} 
+  .header nav {
+    height: 100%;
+    width: 100%;
+    display: table;
+    float: right;
+  }
+.barTitulo{
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(12, 47, 143);
+    
+}
+.barPaginas{
+    float: right;
+    width: 10%;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+}
+.barhoax{
+    float: right;
+    width: 10%;
+    text-align: center;
+    padding: 0px;  
+}
+.barhoaxtwo{
+    float: right;
+    width: 25%;
+    text-align: center;
+    padding: 0px;  
+}
+.hoaxbuster{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(49, 57, 168);
+    border-style:none;
+}
+/* Crear 2 columnas con la misma posición en la fila */
+.navone {
+    float: left;
+    width: 50%;
+    height: 600px;
+    /* only for demonstration, should be removed */
+    background: rgb(247, 249, 253);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.primercuadro{
+    text-align: center;
+    font-size:  50px;
+    font-weight: bold;
+    color: rgb(24, 9, 107);
+}
+.primercuadroun{
+    text-align: center;
+    font-size:  20px;
+    color: rgb(68, 68, 73);
+}
+.primercuadrodo{
+    text-align: center;
+    font-size:  20px;
+    font-weight:lighter;
+    color: rgb(24, 9, 107);
+    padding: 10px;
+}
+
+.fechaselect{
+    align-items: center;
+    text-align: center;
+}
+.barFecha{
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(125, 130, 143);
+    border-style: none;
+}
+
+.articleone {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    background-color:  #005acc;;
+    height: 600px;
+    
+}
+.barLVac{
+    float: left;
+    width: 25%;
+    align-content: center;
+    opacity: 40%;
+}
+.seccuadro{
+    text-align: center;
+    font-size:  50px;
+    font-weight: bold;
+    color: rgb(24, 9, 107);
+}
+.seccuadroun{
+    text-align: center;
+    font-size:  30px;
+    color: rgb(68, 68, 73);
+}
+.trecuadro{
+    text-align: center;
+    font-size:  30px;
+    font-weight:500;
+    color: rgb(24, 9, 107);
+    padding-top: 10px;
+}
+.trecuadroun{
+    text-align: justify;
+    font-size:  20px;
+    color: rgb(68, 68, 73);
+    box-shadow: #777;
+}
+
+.navtwo {
+    float: left;
+    width: 50%;
+    height: 300px;
+    /* only for demonstration, should be removed */
+    background: rgb(247, 249, 253);
+    padding: 10px;
+}
+.articletwo {
+    float: left;
+    padding: 0px;
+    width: 50%;
+    background-color:  rgb(247, 249, 253);;
+    height: 300px;  
+}
+.imageone{
+    background-color: rgb(247, 249, 253);;
+    text-align: right;
+}
+.bardata{
+    float: left;
+    width: 25%;
+    align-content: left;
+    background-color: rgb(247, 249, 253);
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 220px;   
+}
+.bardatex{
+    text-align: left;
+    font-size:  20px;
+    font-weight: bold;
+    color: rgb(24, 9, 107);
+}
+.bardatext,.foottre{
+    text-align: left;
+    font-size:  20px;
+    color: rgb(68, 68, 73);
+}
+.foottre{
+    text-align: left;
+}
+.navtre {
+    float: left;
+    width: 50%;
+    height: 400px;
+    /* only for demonstration, should be removed */
+    background: rgb(247, 249, 253);
+    padding: 10px;
+}
+.articletre {
+    float: left;
+    padding: 0px;
+    width: 50%;
+    background-color:  rgb(247, 249, 253);;
+    height: 400px;
+    text-align: justify;  
+}
+.imagetwo{
+    background-color: rgb(247, 249, 253);;
+    transform: scaleX(-1);
+    text-align: right;
+}
+.interior{ display:none; } /* oculta las listas anidadas */
+input:checked ~ ul{display:block;}
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.bardatatwo{
+    float: left;
+    width: 50%;
+    align-content: center;
+    background-color: rgb(247, 249, 253);
+    padding-right: 20px;
+    padding-left: 10px;
+    height: 220px;   
+}
+.trecuadron{
+    font-size:  30px;
+    font-weight:400;
+    color: rgb(24, 9, 107);
+    
+}
+.footone,.foottwo{
+    float: left;
+    width: 40%;
+    align-content: left;
+    background-color: rgb(247, 249, 253);
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 220px;   
+}
+.foottwo{
+    width: 20%;
+}
+
+/* Estilo de footer */
+footer {
+    background-color: rgb(247, 249, 253);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
